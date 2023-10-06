@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:wght@400;600&family=Varela+Round&display=swap');
+
+/* Color-Pallet
+color: #7293bc;
+color: #a9846d;
+color: #6c8b5c;
+color: #edcc9d;
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #edcc9d;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5vw;
+    background-color: #edcc9d;
+    position: sticky;
+    top: 0;
+    border-bottom: 4px #6c8b5c solid;
+    z-index: 1;
+}
+
+nav img {
+    max-width: 400px;
+}
+
+nav div {
+    display: flex;
+}
+
+nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600px;
+    font-size: 1.3rem;
+    color: #6c8b5c;
+    border-radius: 5px;
+}
+
+#nav-right-link {
+    background-color: #6c8b5c;
+    color: #edcc9d;
+    border: 3px transparent solid;
+}
+
+#nav-right-link:hover {
+    background-color: transparent;
+    border: 3px #6c8b5c solid;
+    color: #6c8b5c;
+}
+
+nav a:hover {
+    background-color: #7293bc;
+    color: #edcc9d;
+}
+
+header {
+    display: flex;
+    background-image: url(../test-images/4617.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 30vw;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    border-bottom: 4px #6c8b5c solid;
+    min-height: 92vh;
+    height: fit-content;
+}
+
+.intro {
+    background: white;
+    opacity: 0.7;
+    padding: 2vh 2vw;
+    height: 100%;
+    min-height: 92vh;
+}
+
+.intro h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+    padding-top: 15vh;
+}
+
+.intro p {
+    font-size: larger;
+}
+
+.intro div {
+    padding-bottom: 15vh;
+    height: 0;
+}
+
+.intro div a {
+    margin: 0 0.5vw;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px black solid;
+}
+
+.header-main-link {
+    background-color: black;
+    color: white;
+}
+
+.header-main-link:hover {
+    background-color: #6c8b5c;
+    color: black;
+}
+
+.header-side-link {
+    color: black;
+}
+
+.header-side-link:hover {
+    background-color: #7293bc;
+}
+
+.times-and-places {
+    background-color: #edcc9d;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 10vh;
+    font-size: x-large;
+}
+
+.travel-options {
+    display: flex;
+    gap: 2vw;
+    margin: 0 7.5vw;
+}
+
+.travel-options article {
+    font-family: 'Exo 2', sans-serif;
+    background-color: #f0e8d8;
+    border-radius: 5px;
+    border: 4px #6c8b5c solid;
+    flex: 1;
+    font-size: large;
+    text-align: left;
+    margin-bottom: 10vh;
+}
+
+.travel-options article img {
+    width: 100%;
+    border-radius: 1px 1px 0px 0px;
+}
+
+.travel-options h3 {
+    padding-left: 1vw;
+}
+
+.stars {
+    display: flex;
+    color: rgb(175, 175, 175);
+    justify-content: left;
+    padding-left: 1vw;
+}
+
+#colored-star {
+    color: rgb(255, 196, 0);
+}
+
+.travel-options p {
+    font-size: medium;
+    padding: 0 1vw;
+    margin-bottom: 2vh;
+}
+
+.travel-options article a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #7293bc;
+    margin: 5vh 1vw;
+    border-radius: 5px;
+    color: #f0e8d8;
+}
+
+.travel-options article a:hover {
+    background-color: #6c8b5c;
+}
+
+.form {
+    padding-top: 100px;
+    background-color: #a9846d;
+    color: #f0e8d8;
+    padding: 0 25vw;
+    padding-bottom: 5vh;
+    border-bottom: 4px #6c8b5c solid;
+}
+
+.form h2 {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: xx-large;
+}
+
+.form label {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form form input,
+.form form select,
+.form form textarea,
+.form form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px #6c8b5c solid;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 1.5vh;
+}
+
+.form form div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.form form div div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.form form .formfield {
+    flex-direction: column;
+}
+
+.form form .formfield div {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.formfield div .formradio-two {
+    flex: 7;
+}
+
+.form form .terms-con {
+    flex-direction: row;
+}
+
+.form form button {
+    padding: 10px;
+    background-color: #6c8b5c;
+    color: #f0e8d8;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.form form button:hover {
+    background-color: #7293bc;
+    border: 2px #7293bc solid;
+}
+
+footer {
+    background-color: #6c8b5c;
+    padding: 4vh 5vw;
+    font-family: 'Exo 2', sans-serif;
+}
+
+footer img {
+    background-color: #edcc9d;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 3vh 0;
+}
+
+footer div img {
+    max-height: 30px;
+    padding: 0;
+    border-radius: 3.5px;
+    margin-top: 1vh;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text div {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #edcc9d;
+}
+
+.footer-text a:hover {
+    color: #f0e8d8;
+}
+
+.footer-text-left {
+    flex-direction: column;
+}
+
+.footer-text-left div {
+    display: flex;
+}
+
+@media (width <=800px) {
+    header {
+        padding: 0;
+    }
+}
+
+@media (width <=750px) {
+    nav img {
+        max-width: 200px;
+    }
+}
+
+@media (width <=600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .travel-options {
+        flex-direction: column;
+    }
+
+    .form {
+        padding: 0 2.5vw;
+        padding-bottom: 5vh;
+    }
+
+    .form form div {
+        flex-direction: column;
+    }
+
+    .footer-text {
+        flex-direction: column;
+    }
+
+    .footer-text div {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .footer-text-left div {
+        flex-direction: row;
+        gap: 15px;
+    }
+}
+
+@media (width <=480px) {
+    nav div {
+        flex-direction: column;
+    }
+}
+
+/* 
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Varela Round', sans-serif; 
+*/
