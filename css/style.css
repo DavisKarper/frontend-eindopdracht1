@@ -97,6 +97,7 @@ header {
 
 .intro p {
     font-size: larger;
+    margin-bottom: 30px;
 }
 
 .intro div {
@@ -142,9 +143,14 @@ header {
     display: flex;
     gap: 2vw;
     margin: 0 7.5vw;
+    align-items: stretch
 }
 
 .travel-options article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
     font-family: 'Exo 2', sans-serif;
     background-color: #f0e8d8;
     border-radius: 5px;
@@ -185,7 +191,7 @@ header {
     text-decoration: none;
     padding: 10px 20px;
     background-color: #7293bc;
-    margin: 5vh 1vw;
+    margin: 1vh 1vw;
     border-radius: 5px;
     color: #f0e8d8;
 }
@@ -195,7 +201,6 @@ header {
 }
 
 .form {
-    padding-top: 100px;
     background-color: #a9846d;
     color: #f0e8d8;
     padding: 0 25vw;
@@ -204,6 +209,7 @@ header {
 }
 
 .form h2 {
+    padding-top: 12vh;
     text-align: center;
     font-family: 'Varela Round', sans-serif;
     font-size: xx-large;
@@ -265,11 +271,20 @@ header {
     color: #f0e8d8;
     font-weight: bold;
     font-size: medium;
+    margin-bottom: 7vh;
 }
 
 .form form button:hover {
     background-color: #7293bc;
     border: 2px #7293bc solid;
+}
+
+#e-mail,
+#subject,
+#question,
+.terms-con,
+button {
+    margin-top: 2.5vh;
 }
 
 footer {

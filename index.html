@@ -12,15 +12,15 @@
     <nav>
         <img src="images/TimeWarp-Travels logo.png" alt="timewarp travels logo">
         <div>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
+            <a href="#times-and-places-link">Link</a>
+            <a href="#form-link">Link</a>
             <a href="#">Link</a>
             <a href="#">Link</a>
             <a id="nav-right-link" href="#">Link</a>
         </div>
     </nav>
     <header>
-        <div class="intro">
+        <section class="intro">
             <h1>Reis terug in de tijd!</h1>
             <p>Onze commerciële tijdreizen maken het onmogelijke mogelijk. Verlies jezelf in de rijke en mysterieuze
                 tijdperken van het
@@ -38,16 +38,15 @@
                 een
                 avontuur dat
                 generaties zal overstijgen, want de tijd wacht op niemand, behalve op jou!</p>
-            <br>
             <div>
-                <a class="header-main-link" href="#">Link</a>
-                <a class="header-side-link" href="#">Link</a>
+                <a class="header-main-link" href="#times-and-places-link">Link</a>
+                <a class="header-side-link" href="#form-link">Link</a>
             </div>
-        </div>
+        </section>
     </header>
     <main>
         <section class="times-and-places">
-            <h2>Tijdperken & Locaties</h2>
+            <h2 id="times-and-places-link">Tijdperken & Locaties</h2>
             <div class="travel-options">
                 <article>
                     <img src="images/Athene-griekseTijd.png"
@@ -69,9 +68,9 @@
                         wereld heeft gevormd. Proef de smaken van de oudheid, van olijven en druiven tot heerlijke
                         gerechten en wijn. Het is een reis die je terugvoert naar
                         een tijd van wijsheid, schoonheid
-                        en verwondering.</p><br>
+                        en verwondering.</p>
                     <a href="#">Link</a>
-                    <div><br></div>
+                    <div></div>
                 </article>
                 <article>
                     <img src="images/Amsterdam-goudenEeuw.png"
@@ -92,9 +91,9 @@
                         Nederlandse handel en innovatie die de wereld hebben veranderd. Mis deze
                         unieke kans niet om te ervaren hoe het was om in een van de meest bruisende en cultureel rijke
                         steden van de 17e eeuw te
-                        leven.</p><br>
+                        leven.</p>
                     <a href="#">Link</a>
-                    <div><br></div>
+                    <div></div>
                 </article>
                 <article>
                     <img src="images/Engeland-middelEeuwen.png"
@@ -118,15 +117,15 @@
                         van historische evenementen, maar ook deel
                         uitmaken van de rijke culturele erfenis van dit tijdperk. Het is een kans om de middeleeuwen op
                         een unieke en meeslepende manier te
-                        ervaren.</p><br>
+                        ervaren.</p>
                     <a href="#">Link</a>
-                    <div><br></div>
+                    <div></div>
                 </article>
             </div>
         </section>
         <section class="form">
-            <br><br><br>
-            <h2>Form</h2>
+
+            <h2 id="form-link">Form</h2>
             <form>
                 <div>
                     <div>
@@ -137,9 +136,9 @@
                         <label for="last-name">Achternaam</label>
                         <input type="text" id="last-name" name="last-name" placeholder="Achternaam" required>
                     </div>
-                </div><br>
-                <label for="e-mail">E-mail</label><br>
-                <input type="email" id="e-mail" name="e-mail" placeholder="Email" required><br>
+                </div>
+                <label for="e-mail">E-mail</label>
+                <input type="email" id="e-mail" name="e-mail" placeholder="Email" required>
                 <div>
                     <div>
                         <label for="city">Woonplaats</label>
@@ -149,18 +148,18 @@
                         <label for="birthdate">Geboortedatum</label>
                         <input type="date" id="birthdate" name="birthdate" required>
                     </div>
-                </div><br>
-                <label for="subject">Onderwerp</label><br>
+                </div>
+                <label for="subject">Onderwerp</label>
                 <select name="subject" id="subject" required>
                     <option value="">Kies onderwerp van het bericht...</option>
                     <option value="0">Aankomst</option>
                     <option value="1">Vertrek</option>
                     <option value="2">Geldprijzen</option>
                     <option value="3">Tijdlijn veranderen</option>
-                </select><br>
-                <label for="question">Bericht</label><br>
+                </select>
+                <label for="question">Bericht</label>
                 <textarea name="question" id="question" cols="1" rows="7" required></textarea>
-                <div class="formfield"><br>
+                <div class="formfield">
                     <label for="category">Inschrijven voor nieuwsbrief?</label>
                     <div>
                         <div>
@@ -172,11 +171,11 @@
                             <label for="sign-up-no">Nee</label>
                         </div>
                     </div>
-                </div><br>
+                </div>
                 <div class="terms-con">
                     <input type="checkbox" id="terms-and-conditions" name="terms-and-conditions" required>
                     <label for="terms-and-conditions">Ik ga akkoord met de algemene voorwaarden*</label>
-                </div><br>
+                </div>
                 <button type="submit">Verstuur</button>
             </form>
         </section>
